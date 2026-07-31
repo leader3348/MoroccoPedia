@@ -1,25 +1,28 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
+  "name": "MoroccoPedia",
+  "short_name": "MoroccoPedia",
+  "description": "L'encyclopédie culturelle vivante du Maroc",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#fdf8f2",
+  "theme_color": "#c0390a",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "categories": ["education", "lifestyle", "travel"],
+  "icons": [
+    { "src": "/favicon.svg",      "type": "image/svg+xml", "sizes": "any",     "purpose": "any maskable" },
+    { "src": "/icon-192.png",     "type": "image/png",     "sizes": "192x192", "purpose": "any maskable" },
+    { "src": "/icon-512.png",     "type": "image/png",     "sizes": "512x512", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    { "src": "/screenshot-home.png",    "sizes": "1280x800", "type": "image/png", "label": "Accueil MoroccoPedia" },
+    { "src": "/screenshot-dialect.png", "sizes": "1280x800", "type": "image/png", "label": "Dictionnaire Darija" }
+  ],
+  "shortcuts": [
+    { "name": "Dictionnaire Darija", "url": "/dialect",  "description": "355+ mots Darija" },
+    { "name": "Carte du Maroc",      "url": "/map",      "description": "Carte culturelle interactive" },
+    { "name": "Recettes",            "url": "/recipes",  "description": "Cuisine marocaine authentique" }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
